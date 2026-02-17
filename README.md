@@ -62,7 +62,6 @@ To ensure high-quality caption generation, the system supports two inference met
 ## 🛠️ Installation & Setup
 
 ### 1. Clone & Install Dependencies
-```bash
 git clone [https://github.com/haresh8765/image-caption-bot.git](https://github.com/haresh8765/image-caption-bot.git)
 cd image-caption-bot
 pip install -r requirements.txt
@@ -84,8 +83,3 @@ best_model_bleu.pth: Model checkpoints.
 vocab.pkl: Pre-processed vocabulary mapping.
 
 requirements.txt: List of required Python packages.
-
-📝 Blog Post
-For a detailed technical breakdown of the mathematics and implementation challenges, read my full article on Medium:
-
-🔗 Bridging Pixels and Prose: A Deep Dive into Neural Image Captioning
