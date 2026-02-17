@@ -58,28 +58,3 @@ To ensure high-quality caption generation, the system supports two inference met
 | **Beam Size** | 3 |
 
 ---
-
-## 🛠️ Installation & Setup
-
-### 1. Clone & Install Dependencies
-git clone [https://github.com/haresh8765/image-caption-bot.git](https://github.com/haresh8765/image-caption-bot.git)
-cd image-caption-bot
-pip install -r requirements.txt
-2. Required Files
-Ensure the following files are in your root directory:
-
-best_model_bleu.pth (The trained weights)
-
-vocab.pkl (The pickled Vocabulary class)
-
-3. Run Locally
-Bash
-python app.py
-📁 File Structure
-app.py: Gradio interface and inference logic for Greedy/Beam search.
-
-best_model_bleu.pth: Model checkpoints.
-
-vocab.pkl: Pre-processed vocabulary mapping.
-
-requirements.txt: List of required Python packages.
